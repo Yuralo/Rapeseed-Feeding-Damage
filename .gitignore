@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local environments and tool caches
+.venv/
+.pytest_cache/
+.ruff_cache/
+
+# Local datasets, downloaded weights, and derived feature/image caches
+data/
+pretrained/
+cache/
+outputs/
+
+# Keep experiment output folders in Git, but store model checkpoints elsewhere.
+*.pt
+*.npz
+*.pth
+*.safetensors
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
